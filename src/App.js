@@ -35,13 +35,15 @@ function App() {
 
   return (
     <div>
-      <div>
-        <MainButton click = {functionConsoleMain} text={count1+count2+count3+count4+countMain}/>
+      <div className="mainButtonContainer">
+        <MainButton  click = {functionConsoleMain} text={count1+count2+count3+count4+countMain}/>
       </div>
+      <div className="container">
       <Button click={functionConsole1} text={count1} />
       <Button click={functionConsole2} text={count2} />
       <Button click={functionConsole3} text={count3} />
       <Button click={functionConsole4} text={count4} />
+      </div>
     </div>
   );
 }

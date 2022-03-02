@@ -1,6 +1,26 @@
-button {
-    font-weight: bolder;
-    margin: 15px;
-    height: 80px;
-    width: 80px;
+.buttons {
+  font-size: larger;
+  font-weight: bold;
+  border: solid;
+  font-weight: bolder;
+  margin: 15px;
+  height: 150px;
+  width:150px;
+}
+.mainButton {
+  font-size: larger;
+  font-weight: bolder;
+  border: solid;
+  height: 250px;
+  width: 250px;
+}
+.container {
+  padding-top: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+.mainButtonContainer {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
 }

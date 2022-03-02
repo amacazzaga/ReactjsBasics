@@ -1,7 +1,7 @@
 import React from "react";
 
 const MainButton = ({click,text}) => {
-  return <button onClick={click} >{text}</button>;
+  return <button className="mainButton" onClick={click} >{text}</button>;
 };
 
 export default MainButton;
