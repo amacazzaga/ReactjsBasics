@@ -1,10 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const List = ({text}) => {
-  return (
-    <li className='list'>{text}</li>
-    
-  )
-}
+const List = ({ text }) => {
+  return <li className="list">{text}</li>;
+};
 
-export default List
+export default List;
