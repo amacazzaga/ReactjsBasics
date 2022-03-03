@@ -1,2 +1,2 @@
-# Getting Started React App!!! :)
+# Getting Started a React App!!! :)
 
