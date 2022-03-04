@@ -50,7 +50,7 @@ function App() {
         <List text={countList} />
       </div>
       <div className="container">
-        <Button id="button1" click={functionConsole1} text={count1} />
+        <Button click={functionConsole1} text={count1} />
         <Button click={functionConsole2} text={count2} />
         <Button click={functionConsole3} text={count3} />
         <Button click={functionConsole4} text={count4} />
