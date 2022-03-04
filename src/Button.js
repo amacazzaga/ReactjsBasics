@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 
-const button = ({ text, click }) => {
+const Button = ({ extraClick }) => {
+  const [count, setCount] = useState(0);
   return (
-    <button className="buttons" onClick={click}>
-      {text}
+    <button
+      className="buttons"
+      onClick={() => {
+        setCount(count + 1);
+        extraClick();
+      }}
+    >
+      {count}
     </button> //onClick, es la funcion!!!en JSX
   );
 };
 
-export default button;
+export default Button;
